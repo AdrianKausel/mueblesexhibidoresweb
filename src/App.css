@@ -1,38 +1,343 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.MainNav{
+  color: black;
+  height: 7vh;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;  
+  margin-bottom: 3%;
+
+}
+
+
+.carouselContainer{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.me-auto2 a{
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2vh;
+}
+
+.headerTexts{
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vh;
+  display: flex;
+}
+
+.headerTexts2{
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vh;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vh;
+}
+.headerTexts a{
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vh;
+  display: flex;
+  width: 70%;
+}
+.me-auto2{
+  justify-content: center;  
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.me-auto{
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  align-items: center;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cosa{
+  background-color: rgba(18, 18, 18, 0.89);
+  width: 100%;
+}
+.headerIcons{
+  display: flex;
+  align-self: center;
+
+}
+.headerNav{
+  color: white  ;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;    
+  height: 4vh;
+  width: 100%;
+} 
+
+.logoImg{
+  margin-top: 1vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pageTitles{
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900  ;
+  font-style: bold;
+  font-size: 5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pageTitles2{
+  color: rgba(29, 29, 28, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900  ;
+  font-style: bold;
+  font-size: 5vh;
+  text-align: end;
+  margin-right: 14vh;
+  margin-top: -2vh;
+  margin-bottom: 6vh;
+}
+
+
+.secondBlock{
+  background-color: #273036;
+  width: 100%;
+  height: 100%;
+  margin-top: -3vh;
+}
+
+.paragraphs{
+  margin-top: 3.5vh ;
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600  ;
+  font-style: normal;
+  font-size: 2vh;
+  width:100%;
+}
+.paragraphs2{
+  color: rgba(7, 7, 7, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600  ;
+  font-style: normal;
+  font-size: 2vh;
+  width:90%;
+  text-align: end;
+  margin-bottom: 8vh;
+}
+
+
+.paragraphs3{
+  margin-top: 3.5vh ;
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600  ;
+  font-style: normal;
+  font-size: 2vh;
+  width:100%;
+}
+
+.paragraphBlock{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.paragraphBlock2{
+  display: flex; 
+  margin-bottom: 5vh;
+  flex-direction: row;
+}
+
+
+.otherImage{
+  width: 35%;
+  margin: 2vh;
+  
+}
+.flagy{
+  margin-left: 0.9vh;
+  height: 1.5vh;
+}
+
+.thirdBlock{
+  width: 100%;
+  height: 5%;
+}
+
+.fourthBlock{
+  background-color: #273036;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5vh;
+  border-width: 0px;
+}
+
+.tabsCarousel{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:100%;
+  margin-bottom: 3vh;
 }
 
-.App-link {
-  color: #61dafb;
+.tabText{
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400  ;
+  font-style: normal;
+  font-size: 2vh;
+  width:100%;
+  margin-bottom: 4vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loguito{
+  width: 13vh;
+}
+
+.footerNav{
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;  
+  text-align: center;
+  padding: 1vh;
+  
+}
+
+.footerText{
+  color: rgba(0, 0, 0, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 1.2vh;
+  margin-bottom: -0.7vh;
+}
+
+.img-fluid {
+  max-height: 70vh;
+}
+
+.tabsi{
+  display: flex;
+  flex-direction: row;
+  padding: 5vh;
+  justify-content: center;
+  border-radius: 10vh;
+}
+
+.nav-item{
+  width:100%
+}
+
+
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5vh;
+}
+
+.headerNav .nav-link {
+  display: flex;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color:#fff;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+
+
+.nav-item-active{
+  color: rgba(245, 245, 220, 0.883);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400  ;
+  font-style: normal;
+  font-size: 2vh;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabsi button {
+  color: rgb(226, 226, 226);
+  background-color: #232725;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2.5vh;
+  width: 10vh;
+  margin-right: 2vh;
+  margin-left: 2vh;
+}
+
+.tabsCarousel ul{
+  border-width: 0px;
+}
+
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+  width: 100%; 
+  border-radius: 10vh;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  /* border-color: var(--bs-nav-tabs-link-active-border-color); */
+}
+
+.nav-link.active{
+  color: rgb(225 255 136);
 }
